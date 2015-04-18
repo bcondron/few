@@ -39,7 +39,8 @@ body {
 }
 .nav-tabs li {
 	float: left;
-	width: 190px;
+    min-width: 190px;
+	width: 25%;
 	list-style: none;
 	margin-bottom:0;	
 }
@@ -63,23 +64,23 @@ body {
 }
 .nav-tabs li.profile a {
 	background: #50c0e9;
-	margin-left:16px;
-	margin-right:-16px;
+	margin-left:0px;
+	margin-right:0px;
 }
 .nav-tabs li.downloads a {
 	background: #FFB347;
-	margin-left:16px;
-	margin-right:-16px;
+	margin-left:0px;
+	margin-right:0px;
 }
 .nav-tabs li.contacts a {
 	background: #03C03C;
-	margin-left:16px;
-	margin-right:-16px;
+	margin-left:0px;
+	margin-right:0px;
 }
 .nav-tabs li.dribbble a {
 	background: #C23B22;
-	margin-left:16px;
-	margin-right:-16px;
+	margin-left:0px;
+	margin-right:0px;
 }
 .nav-tabs li.twitter a {
 	background: white;
@@ -121,7 +122,7 @@ body {
 	float: left;
 	min-height: 150px;
 	background: #323232;
-	width: 1200px;
+	width: 100%;
 }
 .profile_photo img {
 	vertical-align: top;
@@ -132,7 +133,7 @@ body {
     background: none repeat scroll 0 0 #16A5D7;
     float: left;
     height:150px;
-    width: 1200px;
+    width: 100%;
 	text-decoration:none;
 }
 
@@ -219,6 +220,16 @@ h4.panel-title2 {
   padding:30px;
   
 }
+h4.panel-title3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  text-decoration:none; 
+  text-align:center;
+  text-transform: uppercase;
+  padding:30px;
+  
+}
 
 h5.panel-title {
 	margin-bottom: 30px;
@@ -236,6 +247,13 @@ h5.panel-title {
   color: inherit;
   text-decoration:none;
   background-color:#03C03C;
+  padding:10px 15px;
+  color: #fff;
+}
+.panel-title3 > a {
+  color: inherit;
+  text-decoration:none;
+  background-color:#FFB347;
   padding:10px 15px;
   color: #fff;
 }
@@ -259,6 +277,15 @@ h5.panel-title {
 	margin-top:35px;
 	margin-bottom:10px;
 }
+.feature1 .fleature {
+	padding:50px;
+	text-align:center;
+	background-color:#f9f9f9;	
+	margin-top:35px;
+	margin-bottom:10px;
+}
+}
+
 .feature h4 {
 	margin-bottom:30px;
 	color:#a9a9a9;
@@ -283,6 +310,14 @@ h5.panel-title {
 	height: 80px;
 	line-height: 80px;	
 }
+.fleature .ficon i {
+	border-radius: 50%;
+	background-color:#FFB347;
+	color:#fff;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;	
+}
 .details_exp p {
     font-family: 'questa_sansregular', sans-serif;
 	line-height: 23px;
@@ -300,6 +335,13 @@ h5.panel-title {
 	text-decoration:none;
 	color:#fff;
 	background-color:#03C03C;
+	padding:5px 10px;
+    
+}
+.fleature .details_exp a {
+	text-decoration:none;
+	color:#fff;
+	background-color:#FFB347;
 	padding:5px 10px;
     
 }
