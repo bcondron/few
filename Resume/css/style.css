@@ -230,6 +230,16 @@ h4.panel-title3 {
   padding:30px;
   
 }
+h4.panel-title4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  text-decoration:none; 
+  text-align:center;
+  text-transform: uppercase;
+  padding:30px;
+  
+}
 
 h5.panel-title {
 	margin-bottom: 30px;
@@ -257,6 +267,14 @@ h5.panel-title {
   padding:10px 15px;
   color: #fff;
 }
+.panel-title4 > a {
+  color: inherit;
+  text-decoration:none;
+  background-color:#C23B22;
+  padding:10px 15px;
+  color: #fff;
+}
+
 .panel-collapse {
 	padding-bottom:20px;
 	
@@ -278,6 +296,13 @@ h5.panel-title {
 	margin-bottom:10px;
 }
 .feature1 .fleature {
+	padding:50px;
+	text-align:center;
+	background-color:#f9f9f9;	
+	margin-top:35px;
+	margin-bottom:10px;
+}
+.feature1 .freature4 {
 	padding:50px;
 	text-align:center;
 	background-color:#f9f9f9;	
@@ -318,6 +343,14 @@ h5.panel-title {
 	height: 80px;
 	line-height: 80px;	
 }
+.freature4 .ficon i {
+	border-radius: 50%;
+	background-color:#C23B22;
+	color:#fff;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;	
+}
 .details_exp p {
     font-family: 'questa_sansregular', sans-serif;
 	line-height: 23px;
@@ -335,6 +368,13 @@ h5.panel-title {
 	text-decoration:none;
 	color:#fff;
 	background-color:#03C03C;
+	padding:5px 10px;
+    
+}
+.freature4 .details_exp a {
+	text-decoration:none;
+	color:#fff;
+	background-color:#C23B22;
 	padding:5px 10px;
     
 }
@@ -407,7 +447,7 @@ h5.panel-title {
           box-shadow: none;
 }
 .progress-bar-success {
-  background-color: #5cb85c;
+  background-color: #5bc0de;
 }
 .progress-striped .progress-bar-success {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
@@ -415,7 +455,7 @@ h5.panel-title {
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
 .progress-bar-info {
-  background-color: #5bc0de;
+  background-color: #FFB347;
 }
 .progress-striped .progress-bar-info {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
@@ -423,7 +463,7 @@ h5.panel-title {
   background-image:         linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
 }
 .progress-bar-warning {
-  background-color: #f0ad4e;
+  background-color: #03C03C;
 }
 .progress-striped .progress-bar-warning {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
